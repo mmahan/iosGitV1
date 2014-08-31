@@ -21,6 +21,7 @@
 		C5EFB66519B38B0D0007D31D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EFB64719B38B0D0007D31D /* UIKit.framework */; };
 		C5EFB66D19B38B0D0007D31D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5EFB66B19B38B0D0007D31D /* InfoPlist.strings */; };
 		C5EFB66F19B38B0D0007D31D /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EFB66E19B38B0D0007D31D /* gitTestTests.m */; };
+		C5EFB67A19B38DAD0007D31D /* MMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EFB67919B38DAD0007D31D /* MMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C5EFB66A19B38B0D0007D31D /* gitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTestTests-Info.plist"; sourceTree = "<group>"; };
 		C5EFB66C19B38B0D0007D31D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5EFB66E19B38B0D0007D31D /* gitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestTests.m; sourceTree = "<group>"; };
+		C5EFB67819B38DAD0007D31D /* MMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTest.h; sourceTree = "<group>"; };
+		C5EFB67919B38DAD0007D31D /* MMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C5EFB63719B38B0D0007D31D = {
 			isa = PBXGroup;
 			children = (
+				C5EFB67819B38DAD0007D31D /* MMTest.h */,
+				C5EFB67919B38DAD0007D31D /* MMTest.m */,
 				C5EFB64919B38B0D0007D31D /* gitTest */,
 				C5EFB66819B38B0D0007D31D /* gitTestTests */,
 				C5EFB64219B38B0D0007D31D /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5EFB65419B38B0D0007D31D /* MMAppDelegate.m in Sources */,
+				C5EFB67A19B38DAD0007D31D /* MMTest.m in Sources */,
 				C5EFB65A19B38B0D0007D31D /* MMViewController.m in Sources */,
 				C5EFB65019B38B0D0007D31D /* main.m in Sources */,
 			);
